@@ -2,7 +2,7 @@
 
 An easy email reusable input component to input emails within your application!
 
-![](https://pasteboard.co/JzaY1qK.png)
+![](https://imgur.com/a/IKxPiAn)
 
 ## 🚀 How to use in your project?
 
