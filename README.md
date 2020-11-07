@@ -3,6 +3,7 @@
 An easy email reusable input component to input emails within your application!
 
 [Screenshot](https://imgur.com/R2J1bNq)
+[Demo](https://abouhalinl.github.io/)
 
 ## 🚀 How to use in your project?
 
