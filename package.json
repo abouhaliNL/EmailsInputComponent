@@ -1,0 +1,65 @@
+{
+  "name": "emails-input",
+  "version": "0.0.0",
+  "keywords": [
+    "email",
+    "input",
+    "emails-input"
+  ],
+  "main": "dist/emails-input.js",
+  "files": [
+    "dist"
+  ],
+  "author": "abou",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.ts && postcss dist/main.css -u autoprefixer -r",
+    "test": "jest --coverage",
+    "serve": "webpack serve --config webpack.dev.js"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "babel-jest": "^25.1.0",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.6",
+    "autoprefixer": "^10.0.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.3",
+    "jest-config": "^26.6.3",
+    "mini-css-extract-plugin": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.2.0",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.2",
+    "rollup": "^2.33.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "sass-loader": "^10.0.5",
+    "style-loader": "^2.0.0",
+    "ts-jest": "^26.4.3",
+    "ts-loader": "^8.0.8",
+    "ts-node": "^9.0.0",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.0.5",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
